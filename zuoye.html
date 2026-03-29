@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>作业1</title>
+  <style>
+      body {
+          background-color: #d7fdd9;
+          margin: 0;
+          padding: 30px;
+          color: black;
+          line-height:2;
+          text-align: center
+      }
+
+      span {
+          color: #7e0c6e;
+          font-size: 25px;
+          font-weight: bold;
+          font-family: 宋体;
+      }
+
+      .name {
+          margin-bottom: 36px;
+          text-align: center;
+      }
+
+      h1 {
+          font-family: "Arial Black";
+          font-size: 25px;
+          color: #03134c;
+      }
+
+      .divider {
+          border: none;
+          height: 4px;
+          background-color: #276124;
+          margin: 0 10%;
+      }
+
+      .marquee-container {
+          overflow: hidden;
+          white-space: nowrap;
+          margin: 20px 0;
+          padding: 10px 0;
+          background-color: rgba(255, 255, 255, 0.7);
+          border-radius: 5px;
+      }
+
+      .marquee {
+          display: inline-block;
+          padding-left: 100%;
+          animation: marquee 15s linear infinite;
+          font-size: 24px;
+          color: #1b5e20;
+          font-weight: bold;
+      }
+
+      @keyframes marquee {
+          0% { transform: translate(0, 0); }
+          100% { transform: translate(-100%, 0); }
+      }
+
+      p {
+          font-size: 20px;
+          text-indent: 2em;
+          text-align: left;
+          margin: 8px 0;
+      }
+
+      .content-section {
+          background-color: white;
+          padding: 20px;
+          margin: 20px 10%;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+          color: #2e7d32;
+          border-bottom: 2px solid #a5d6a7;
+          padding-bottom: 5px;
+      }
+
+      .nav-links {
+          text-align: left;
+          margin: 30px 0;
+          font-size: 15px;
+          padding: 10px;
+          position: fixed;
+          top: 0;
+          width: 100%;
+      }
+
+      html {
+          scroll-behavior: smooth;
+      }
+
+      .back-to-top {
+          display: block;
+          text-align: center;
+          margin: 20px;
+          padding: 10px;
+          background: #f0f0f0;
+      }
+
+      .links {
+        font-size: 30px;
+        color: darkgreen;
+        font-weight: bold;
+      }
+      .links:hover {
+        text-decoration: underline;
+        color: lightseagreen;
+      }
+
+      img:hover {
+        cursor: pointer;
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkgreen;
+      }
+
+  </style>
+</head>
+<body>
+<div class="name">
+  <h1>曹钰婷</h1>
+  <h1>2110201</h1>
+  <hr class="divider">
+</div>
+
+<div class="marquee-container">
+  <div class="marquee">个人简介 个人简介 个人简介 个人简介 个人简介</div>
+</div>
+
+<div class="nav-links">
+  <a href="#section1">家乡介绍</a>
+  <a href="#section2">学校介绍</a>
+  <a href="#section3">专业介绍</a>
+  <a href="#section4">爱好介绍</a>
+</div>
+
+<div class="content-section">
+  <section id="section1">
+    <h2>家乡介绍</h2>
+    <p>
+      <a href="https://baike.baidu.com/item/%E5%AE%9C%E5%AE%BE%E5%B8%82/13827162" target="_blank" class="links">宜宾市</a>，四川省辖地级市，别名：酒都、叙府、戎州，位于四川省东南部，地处云贵川三省结合部，金沙江、岷江、长江三江交汇处，地形整体西南高、东北低，属中亚热带季风湿润气候；总面积13283平方千米。截至2024年4月，宜宾市辖3个市辖区、7个县。宜宾市有“万里长江第一城、中国酒都、中国竹都”之称，文化底蕴深厚，于宋政和四年（1114年）由僰道县改称宜宾县。有2200年建城史、4000年酿酒史、3000年种茶史，是国家历史文化名城，II型大城市。</p>
+    <p>宜宾市历代名人辈出，养育了李硕勋、赵一曼、阳翰笙、唐君毅、余泽鸿等无数革命先烈和文坛大师，积聚了多姿多彩的长江文化、酒文化、僰苗文化、哪吒文化、抗战文化、民俗风情文化。宜宾是国家确定的沿江城市带区域中心城市，是四川培育壮大的七大区域中心城市之一、是四川省委确定的长江上游区域中心城市、全国性综合交通枢纽、四川南向开放枢纽门户。2020年1月，四川省批复支持开展省级创新型城市建设。境内有蜀南竹海、金秋湖、李庄古镇、七洞沟旅游景区、夕佳山古民居、老君山等旅游景点。</p>
+    <p>其中蜀南竹海是国家AAAA旅游景区，幅员面积120平方千米，核心景区44平方千米，共有八大主景区两大序景区134处景点。2009年入选中国国家自然与文化遗产预备名录。</p>
+    <img src="image/zhuhai.jpg" height="400" width="580" />
+    <p>此外，宜宾人最喜爱吃面，常见的有，炖鸡面，咸鲜面，肥肠面，牛肉面，京酱面，口蘑面，三鲜面，辣鸡面，鳝鱼面，龙凤面。其中燃面是宜宾最具特色的小吃，原名叙府燃面，早在清光绪年间，便开始有人经营。</p>
+    <img src="image/ranmian.jpg" height="400" width="580" />
+    <p>宜宾人以竹子为原料作出了各种菜肴，进而形成了“全竹宴”，不同品种、不同生长期的竹子以及竹子的不同部位，配合着其他美味原料可以制作出“竹之佳肴”，如竹筒饭、竹根酒、竹叶黄粑、三鲜竹荪汤、凉拌笋丝等。</p>
+    <img src="image/zhuziyan.jpg" height="300" width="400" />  <img src="image/zhutongfan.jpg" height="300" width="400" /></section>
+</div>
+
+<div class="content-section">
+  <section id="section2">
+    <h2>学校介绍</h2>
+    <p>
+      <a href="https://baike.baidu.com/item/%e5%a4%a9%e6%b4%a5%e5%b8%82/213824" target="_blank" class="links">天津市（Tianjin City）</a>，简称“津”，别称津沽、津门，是中华人民共和国直辖市、国家中心城市、超大城市，地处华北平原东北部，海河流域下游，东临渤海，北依燕山，西靠首都北京市，其余均与河北省相邻。属暖温带半湿润季风性气候，四季分明。天津市自古因漕运而兴起，唐朝中叶以后，成为南方粮、绸北运的水陆码头；金代，在南北运河与海河交汇的三岔河口一带设直沽寨，为天津最早的建置；元朝，设“海津镇”，是军事重镇和漕粮转运中心；明永乐二年（1404年），正式筑城，雍正三年三月七日，升天津卫为天津州，属河间府。雍正九年，升天津州为天津府，下辖六县一州，1912年后，天津府裁撤。其是中国古代唯一有确切建城时间记录的城市。
+      天津市是国务院批复确定的中国重要的中心城市，国家历史文化名城，现代海洋城市，国际性综合交通枢纽城市，全国先进制造研发基地、北方国际航运核心区、金融创新运营示范区。天津市是中蒙俄经济走廊主要节点、海上丝绸之路的战略支点、“一带一路”交汇点、亚欧大陆桥最近的东部起点，是邻近内陆国家的重要出海口，也是中国北方最大的港口城市及拱卫京畿的要地和门户。</p>
+    <img src="image/tianjin.jpg" height="500" width="400" />
+    <p>
+      <a href="https://www.nankai.edu.cn/main.htm" target="_blank" class="links">南开大学（Nankai University）</a>，简称“南开”，位于天津市，是中华人民共和国教育部直属的全国重点大学，中央直管高校，是“双一流”、“211工程”、“985工程”建设高校，入选国家“珠峰计划”、“强基计划”、“2011计划”、“111计划”、卓越法律人才教育培养计划、国家建设高水平大学公派研究生项目、全国深化创新创业教育改革示范高校、中国政府奖学金来华留学生接收院校、学位授权自主审核单位，为国际公立大学论坛成员。
+      南开大学由严修、张伯苓秉承教育救国理念创办，成立于1919年。1937年校园遭侵华日军炸毁而南迁，私立南开大学与北京大学、清华大学在长沙合并组建国立长沙临时大学；1938年迁往云南昆明，更名为国立西南联合大学；1946年回津复校并改为国立。新中国成立后，经历高等学校院系调整，成为文理并重的全国重点大学；改革开放以来，天津对外贸易学院、中国旅游管理干部学院相继并入。</p>
+      <img src="image/nankai.jpg" style="width: 200px" /></section>
+  <span>校训：允公允能，日新月异</span>
+</div>
+
+<div class="content-section">
+  <section id="section3">
+    <h2>专业介绍</h2>
+    <span>主修：外国语学院俄语专业</span>
+    <p>基础俄语，高级俄语，俄语实践语法，翻译（俄译汉），翻译（汉译俄），俄语演讲与辩论，翻译学导论，外国文学导论，当代俄罗斯社会，俄罗斯文化，俄语视听说，俄语实践修辞，俄语阅读，俄语语言国情，俄罗斯概况，俄语语音，俄语会话，外文戏剧，中外文明交流与互鉴。</p>
+    <span>辅修：新闻与传播学院网络与新媒体专业</span>
+    <p>新闻学概论，网络与新媒体概论，中国新闻传播大讲堂，马克思主义新闻思想，传播研究方法，数字媒体技术，传播学概论，中国传播法规，非线性编辑，电子商务基础与应用，数字多媒体作品赏析与创作，融合新闻学，网络舆情监测与研判，新媒体产品设计及项目管理，中国新闻传播史。</p>
+  </section>
+</div>
+
+<div class="content-section">
+  <section id="section4">
+    <h2>爱好介绍</h2>
+    <p>我的兴趣爱好广泛，尤其喜欢阅读、旅行和摄影。阅读可以开阔视野，旅行能够体验不同的文化，而摄影则帮助我记录生活中的美好瞬间。</p>
+    <p>另外还有团队运动,志愿活动等。</p>
+  </section>
+</div>
+
+<a class="back-to-top" href="#top">↑ 返回顶部 ↑</a>
+</body>
+</html>
